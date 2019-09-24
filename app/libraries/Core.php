@@ -13,7 +13,6 @@ class Core
 
     public function __construct()
     {
-        print_r($this->getURL());
         $url = $this->getURL();
 
         // Look in controllers for first value
